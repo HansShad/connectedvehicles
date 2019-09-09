@@ -1,0 +1,7 @@
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('YS2R4X20005399401', 'ABC123', 'Kalles Grustransporter AB', 'Cementvägen 8, 111 11 Södertälje', 'Connected');
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('VLUR4X20009093588', 'DEF456', 'Kalles Grustransporter AB', 'Cementvägen 8, 111 11 Södertälje', 'Connected');
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('VLUR4X20009048066', 'GHI789', 'Kalles Grustransporter AB', 'Cementvägen 8, 111 11 Södertälje', 'Disconnected');
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('YS2R4X20005388011', 'JKL012', 'Johans Bulk AB', 'Balkvägen 12, 222 22 Stockholm', 'Connected');
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('YS2R4X20005387949', 'MNO345', 'Johans Bulk AB', 'Balkvägen 12, 222 22 Stockholm', 'Connected');
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('VLUR4X20009048066', 'PQR678', 'Haralds Värdetransporter AB', 'Budgetvägen 1, 333 33 Uppsala', 'Disconnected');
+INSERT INTO VEHICLE (VIN, REGNR, CUSTOMER, ADDRESS, STATUS) VALUES ('YS2R4X20005387055', 'STU901', 'Haralds Värdetransporter AB', 'Budgetvägen 1, 333 33 Uppsala', 'Connected');

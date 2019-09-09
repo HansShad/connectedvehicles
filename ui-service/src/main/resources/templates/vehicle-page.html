@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Vehicle Page</title>
+</head>
+
+<body>
+<h3>Vehicle Page</h3>
+<hr>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm">
+            <a th:href="@{/vehicles/find/findall}" class="btn btn-primary">
+                All Vehicles
+            </a>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <form th:action="@{/vehicles/find/findbystatus}" name='status-form' method='get'>
+                    <label for="status">Select Status:</label>
+                    <select id="status" name="status"  class="form-control">
+                        <option value=""></option>
+                        <option value="Connected">Connected</option>
+                        <option value="Disconnected">Disconnected</option>
+                    </select>
+                    <button type="submit" class="btn btn-info">Select Status</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <form th:action="@{/vehicles/find/findbycustomer}" name='customer-form' method='get'>
+                    <label for="customer">Select Customer:</label>
+                    <select id="customer" name="customer" class="form-control" th:object="${customers}">
+                        <option value=""></option>
+                        <option th:each="customer : ${customers}" th:value="${customer}" th:text="${customer}">
+                        </option>
+                    </select>
+                    <button type="submit" class="btn btn-info">Select Customer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="container">
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+        <tr>
+            <th>VIN</th>
+            <th>Reg.Nr</th>
+            <th>Customer</th>
+            <th>Address</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="theVehicle : ${vehicles}">
+            <td th:text="${theVehicle.vin}"/>
+            <td th:text="${theVehicle.regnr}"/>
+            <td th:text="${theVehicle.customer}"/>
+            <td th:text="${theVehicle.address}"/>
+            <td th:text="${theVehicle.status}"/>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>
