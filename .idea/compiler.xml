@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="vehicle-simulator-service" />
-        <module name="service-discovery" />
-        <module name="ui-service" />
         <module name="vehicle-data-manager-service" />
+        <module name="ui-service" />
+        <module name="service-discovery" />
         <module name="data-service" />
       </profile>
     </annotationProcessing>

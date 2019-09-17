@@ -22,7 +22,7 @@ public class VehicleSimulatorService {
 
     public void fetchAllVehicles() {
 
-        ResponseEntity<List<Vehicle>> response = restTemplate.exchange("http://data-service/vehicles/find/findall", HttpMethod.GET, null, new ParameterizedTypeReference<List<Vehicle>>() {});
+        ResponseEntity<List<Vehicle>> response = restTemplate.exchange("http://data-service/vehicles/findall", HttpMethod.GET, null, new ParameterizedTypeReference<List<Vehicle>>() {});
 
         List<Vehicle> vehicleList = response.getStatusCode() == HttpStatus.OK
                 ? response.getBody()

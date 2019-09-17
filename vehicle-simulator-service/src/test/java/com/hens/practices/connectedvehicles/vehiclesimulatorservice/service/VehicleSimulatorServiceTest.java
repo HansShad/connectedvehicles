@@ -54,7 +54,7 @@ class VehicleSimulatorServiceTest {
     @Test
     void fetchAllVehicles() throws JsonProcessingException {
 
-        mockeServer.expect(ExpectedCount.once(), MockRestRequestMatchers.requestTo("http://data-service/vehicles/find/findall"))
+        mockeServer.expect(ExpectedCount.once(), MockRestRequestMatchers.requestTo("http://data-service/vehicles/findall"))
                 .andExpect(MockRestRequestMatchers.method(HttpMethod.GET))
                 .andRespond(MockRestResponseCreators.withSuccess(objectMapper.writeValueAsString(TestUtil.generateListOfVehicles()), MediaType.APPLICATION_JSON));
 

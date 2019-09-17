@@ -29,18 +29,15 @@ public class VehicleManagementService {
                     .stream()
                     .forEach(this::pingVehicle);
         }
-        else {
-            System.out.println("PROBLEM>>>>>>>>>");
-        }
 
     }
 
     private void pingVehicle(Vehicle theVehicle) {
 
-//        String vehiclePingStatus = restTemplate.getForObject("http://vehicle-simulator-service/vehicles/ping?id=" + theVehicle.getId(), String.class);
         ResponseEntity<String> vehiclePingStatusResponseEntity = restTemplate.exchange("http://vehicle-simulator-service/vehicles/ping?id=" + theVehicle.getId(), HttpMethod.GET, null, String.class);
         if (vehiclePingStatusResponseEntity.getStatusCode() == HttpStatus.OK) {
 
+//            Check vehicle status and update the db if vehicle status is different
             String vehiclePingStatus = vehiclePingStatusResponseEntity.getBody();
             if (vehiclePingStatus.isBlank() || !theVehicle.getStatus().equals(vehiclePingStatus)) {
                 updateVehicleStatus(theVehicle.getId(), vehiclePingStatus);
@@ -51,5 +48,6 @@ public class VehicleManagementService {
     private void updateVehicleStatus(long id, String newStatus) {
 
         // Update database with new status
+        System.out.println("===== updateing vehicle " + id + " status to " + newStatus);
     }
 }
