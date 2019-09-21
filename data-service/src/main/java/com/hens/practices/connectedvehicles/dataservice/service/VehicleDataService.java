@@ -31,4 +31,12 @@ public class VehicleDataService {
 
         return vehicleRepository.findDistinctCustomer();
     }
+
+    public void updateVehicleStatus(long id, String newStatus) {
+
+        Vehicle vehicleToUpdateStatus = vehicleRepository.findById(id).get();
+        vehicleToUpdateStatus.setStatus(newStatus);
+        vehicleRepository.save(vehicleToUpdateStatus);
+//        updateVehicleStatus(id, newStatus);
+    }
 }

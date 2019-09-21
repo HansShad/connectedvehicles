@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/config/WebConfig.java" line="8" mnemonic="7" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f37dba29-dc1d-4069-bb4f-99ef938afa48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/repository/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/service/VehicleDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/service/VehicleDataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorServiceTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/service-discovery/target/" />
-    <ignored path="$PROJECT_DIR$/data-service/target/" />
-    <ignored path="$PROJECT_DIR$/ui-service/target/" />
-    <ignored path="$PROJECT_DIR$/vehicle-simulator-service/target/" />
-    <ignored path="$PROJECT_DIR$/vehicle-data-manager-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,31 +30,6 @@
   <component name="FavoritesManager">
     <favorites_list name="connected-vehicles" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -76,38 +44,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/service/UiService.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/entity/Vehicle.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/entity/VehicleData.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/entity/Vehicle.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/pom.xml" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/entity/VehicleStatus.java" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/entity/Vehicle.java" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/VehicleDataManagerServiceApplication.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/controller/VehicleUiControllerTest.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/testutility/TestUtil.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorControllerTest.java" />
-        <option value="$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/service/UiService.java" />
-        <option value="$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/VehicleSimulatorServiceApplication.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/service/UiServiceTest.java" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorController.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" />
-        <option value="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorServiceTest.java" />
-        <option value="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -115,103 +51,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="connected-vehicles" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="connected-vehicles" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="vehicle-data-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="vehicle-data-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="132" />
-    <option name="width" value="1080" />
-    <option name="height" value="659" />
-  </component>
   <component name="ProjectId" id="1OhQV8pc69xYl0N7rOJU5kE6FkG" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="data-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="data-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="data-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="data-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="data-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connected-vehicles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connectedvehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="data-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -253,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.vehicle manager service">
+  <component name="RunManager" selected="JAR Application.ui service">
     <configuration name="SimulatorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vehicle-simulator-service" />
       <extension name="coverage">
@@ -429,92 +269,12 @@
       <configuration name="VehicleSimulatorServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.25250357" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="DB Browser" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Project Explorer" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.5010142" side_tool="true" weight="0.24892704" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info id="Job Explorer" order="9" />
-      <window_info id="Learn" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32108843" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292517" />
-      <window_info anchor="bottom" id="Console" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.14377682" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.24892704" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="DB Browser" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Project Explorer" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.5010142" side_tool="true" weight="0.24892704" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info id="Job Explorer" order="9" />
-      <window_info id="Learn" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32108843" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292517" />
-      <window_info anchor="bottom" id="Console" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.14377682" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -570,337 +330,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/UiServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/service/VehicleDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-discovery/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-discovery/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/test/java/com/hens/practices/connectedvehicles/dataservice/testutility/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/test/java/com/hens/practices/connectedvehicles/dataservice/service/VehicleDataServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/entity/VehicleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/entity/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/controller/VehicleUiControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="122" column="135" selection-start-line="122" selection-start-column="135" selection-end-line="122" selection-end-column="135" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/testutility/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/entity/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1228">
-          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/testutility/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/DataServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/VehicleSimulatorServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/service/UiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/test/java/com/hens/practices/connectedvehicles/uiservice/service/UiServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/VehicleDataManagerServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/entity/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/entity/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-593">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/test/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/com/hens/practices/connectedvehicles/uiservice/controller/VehicleUiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="94" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="56" column="113" selection-start-line="56" selection-start-column="113" selection-end-line="56" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

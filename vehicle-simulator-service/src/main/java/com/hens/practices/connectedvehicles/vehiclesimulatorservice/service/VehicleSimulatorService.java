@@ -38,7 +38,9 @@ public class VehicleSimulatorService {
             @Override
             public void accept(Vehicle vehicle) {
 
-                int randomValue = (int )(Math.random() * 1 + 0);
+//                (Math.random() * ((max - min) + 1)) + min
+                int randomValue = (int )(Math.random() * 2 + 0);
+                System.out.println("====================" + randomValue);
                 if (randomValue == 0) {
                     vehicle.setPingable(false);
                 }

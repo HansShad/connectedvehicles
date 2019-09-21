@@ -3,9 +3,7 @@ package com.hens.practices.connectedvehicles.vehicledatamanagerservice.service;
 import com.hens.practices.connectedvehicles.vehicledatamanagerservice.entity.Vehicle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
@@ -47,7 +45,13 @@ public class VehicleManagementService {
 
     private void updateVehicleStatus(long id, String newStatus) {
 
-        // Update database with new status
+//        HttpHeaders headers = new HttpHeaders();
+//        MediaType mediaType = new MediaType("application", "merge-patch+json");
+//        headers.setContentType(mediaType);
+//
+//        HttpEntity<String> requestEntity = new HttpEntity<>(newStatus, headers);
+        HttpEntity<String> requestEntity = new HttpEntity<>(newStatus);
+        ResponseEntity<Void> updateVehicleResponse = restTemplate.exchange("http://data-service/vehicles/update/" + id, HttpMethod.POST, requestEntity, Void.class);
         System.out.println("===== updateing vehicle " + id + " status to " + newStatus);
     }
 }

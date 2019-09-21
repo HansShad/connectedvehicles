@@ -12,6 +12,8 @@ public interface VehicleRepository extends JpaRepository<Vehicle, Long> {
 
     List<Vehicle> findByCustomer(String customer);
     List<Vehicle> findByStatus(String status);
+//    Vehicle findById(long id);
+//    Vehicle updateVehicleStatus(long id, String status);
 
     @Query("select distinct customer from Vehicle")
     List<String> findDistinctCustomer();
