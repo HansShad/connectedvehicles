@@ -35,9 +35,9 @@ public class VehicleManagementService {
         ResponseEntity<String> vehiclePingStatusResponseEntity = restTemplate.exchange("http://vehicle-simulator-service/vehicles/ping?id=" + theVehicle.getId(), HttpMethod.GET, null, String.class);
         if (vehiclePingStatusResponseEntity.getStatusCode() == HttpStatus.OK) {
 
-//            Check vehicle status and update the db if vehicle status is different
             String vehiclePingStatus = vehiclePingStatusResponseEntity.getBody();
-            if (vehiclePingStatus.isBlank() || !theVehicle.getStatus().equals(vehiclePingStatus)) {
+//            Check vehicle status and update the db if vehicle status is different
+            if (!theVehicle.getStatus().equals(vehiclePingStatus)) {
                 updateVehicleStatus(theVehicle.getId(), vehiclePingStatus);
             }
         }
@@ -45,13 +45,7 @@ public class VehicleManagementService {
 
     private void updateVehicleStatus(long id, String newStatus) {
 
-//        HttpHeaders headers = new HttpHeaders();
-//        MediaType mediaType = new MediaType("application", "merge-patch+json");
-//        headers.setContentType(mediaType);
-//
-//        HttpEntity<String> requestEntity = new HttpEntity<>(newStatus, headers);
         HttpEntity<String> requestEntity = new HttpEntity<>(newStatus);
         ResponseEntity<Void> updateVehicleResponse = restTemplate.exchange("http://data-service/vehicles/update/" + id, HttpMethod.POST, requestEntity, Void.class);
-        System.out.println("===== updateing vehicle " + id + " status to " + newStatus);
     }
 }

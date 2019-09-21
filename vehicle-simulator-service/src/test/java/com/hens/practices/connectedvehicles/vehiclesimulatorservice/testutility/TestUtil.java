@@ -12,6 +12,6 @@ public class TestUtil {
         Vehicle vehicle1 = new Vehicle(1L, "Connected", true);
         Vehicle vehicle2 = new Vehicle(2L, "Disconnected", true);
         Vehicle vehicle3 = new Vehicle(3L, "Connected", false);
-        return Arrays.asList(vehicle1, vehicle2);
+        return Arrays.asList(vehicle1, vehicle2, vehicle3);
     }
 }

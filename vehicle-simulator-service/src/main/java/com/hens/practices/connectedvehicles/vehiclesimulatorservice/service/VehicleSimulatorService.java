@@ -7,6 +7,7 @@ import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
@@ -39,8 +40,7 @@ public class VehicleSimulatorService {
             public void accept(Vehicle vehicle) {
 
 //                (Math.random() * ((max - min) + 1)) + min
-                int randomValue = (int )(Math.random() * 2 + 0);
-                System.out.println("====================" + randomValue);
+                int randomValue = (int)(Math.random() * 2 + 0);
                 if (randomValue == 0) {
                     vehicle.setPingable(false);
                 }
@@ -53,5 +53,26 @@ public class VehicleSimulatorService {
         VehicleData.getVehicles()
                 .stream()
                 .forEach(configurePingable);
+    }
+
+    @Scheduled(fixedDelay = 6000)
+    private void simulateVehicleStatusChange() {
+
+        Consumer<Vehicle> simulateStatusUpdate = new Consumer<Vehicle>() {
+            @Override
+            public void accept(Vehicle vehicle) {
+
+                int randomValue = (int)(Math.random() * 2 + 0);
+                if (randomValue == 0) {
+                    vehicle.setStatus("Disconnected");
+                } else {
+                    vehicle.setStatus("Connected");
+                }
+            }
+        };
+
+        VehicleData.getVehicles()
+                .stream()
+                .forEach(simulateStatusUpdate);
     }
 }

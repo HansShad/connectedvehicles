@@ -1,5 +1,6 @@
 package com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller;
 
+import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.Vehicle;
 import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleData;
 import com.hens.practices.connectedvehicles.vehiclesimulatorservice.service.VehicleSimulatorService;
 import lombok.RequiredArgsConstructor;

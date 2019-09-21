@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f37dba29-dc1d-4069-bb4f-99ef938afa48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/controller/VehicleDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/repository/VehicleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/service/VehicleDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/hens/practices/connectedvehicles/dataservice/service/VehicleDataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/VehicleSimulatorServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/VehicleSimulatorServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/testutility/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/testutility/TestUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,21 +93,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JAR Application.ui service">
-    <configuration name="SimulatorControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vehicle-simulator-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller.SimulatorControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimulatorControllerTest.pingConnectedAndNotPingableVehicleForStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vehicle-simulator-service" />
       <extension name="coverage">
@@ -125,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimulatorControllerTest.pingVehicleForStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimulatorControllerTest.pingConnectedAndPingableVehicleForStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vehicle-simulator-service" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +119,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller" />
       <option name="MAIN_CLASS_NAME" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller.SimulatorControllerTest" />
-      <option name="METHOD_NAME" value="pingVehicleForStatus" />
+      <option name="METHOD_NAME" value="pingConnectedAndPingableVehicleForStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulatorControllerTest.pingDisconnectedAndPingableVehicleForStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-simulator-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller.SimulatorControllerTest" />
+      <option name="METHOD_NAME" value="pingDisconnectedAndPingableVehicleForStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,19 +208,19 @@
       <item itemvalue="JAR Application.service discovery" />
       <item itemvalue="JAR Application.dara service" />
       <item itemvalue="JAR Application.ui service" />
-      <item itemvalue="JUnit.SimulatorControllerTest.pingVehicleForStatus" />
       <item itemvalue="JUnit.SimulatorControllerTest.pingConnectedAndNotPingableVehicleForStatus" />
-      <item itemvalue="JUnit.SimulatorControllerTest" />
       <item itemvalue="JUnit.VehicleSimulatorServiceTest.fetchAllVehicles" />
       <item itemvalue="JUnit.VehicleSimulatorServiceTest" />
+      <item itemvalue="JUnit.SimulatorControllerTest.pingConnectedAndPingableVehicleForStatus" />
+      <item itemvalue="JUnit.SimulatorControllerTest.pingDisconnectedAndPingableVehicleForStatus" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimulatorControllerTest.pingConnectedAndNotPingableVehicleForStatus" />
+        <item itemvalue="JUnit.SimulatorControllerTest.pingDisconnectedAndPingableVehicleForStatus" />
+        <item itemvalue="JUnit.SimulatorControllerTest.pingConnectedAndPingableVehicleForStatus" />
         <item itemvalue="JUnit.VehicleSimulatorServiceTest" />
         <item itemvalue="JUnit.VehicleSimulatorServiceTest.fetchAllVehicles" />
-        <item itemvalue="JUnit.SimulatorControllerTest" />
-        <item itemvalue="JUnit.SimulatorControllerTest.pingConnectedAndNotPingableVehicleForStatus" />
-        <item itemvalue="JUnit.SimulatorControllerTest.pingVehicleForStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -236,38 +236,6 @@
       <updated>1564076096581</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="SimulatorControllerTest - 2019.08.14 at 05h 00m 43s.xml">
-      <configuration name="SimulatorControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimulatorControllerTest - 2019.08.14 at 05h 00m 56s.xml">
-      <configuration name="SimulatorControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimulatorControllerTest - 2019.08.14 at 05h 01m 55s.xml">
-      <configuration name="SimulatorControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest_fetchAllVehicles - 2019.08.17 at 15h 55m 11s.xml">
-      <configuration name="VehicleSimulatorServiceTest.fetchAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest_fetchAllVehicles - 2019.08.17 at 15h 57m 05s.xml">
-      <configuration name="VehicleSimulatorServiceTest.fetchAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest_fetchAllVehicles - 2019.08.17 at 15h 58m 12s.xml">
-      <configuration name="VehicleSimulatorServiceTest.fetchAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest_fetchAllVehicles - 2019.08.17 at 16h 13m 08s.xml">
-      <configuration name="VehicleSimulatorServiceTest.fetchAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest_fetchAllVehicles - 2019.08.17 at 16h 18m 41s.xml">
-      <configuration name="VehicleSimulatorServiceTest.fetchAllVehicles" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest - 2019.08.17 at 17h 11m 58s.xml">
-      <configuration name="VehicleSimulatorServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VehicleSimulatorServiceTest - 2019.08.17 at 17h 12m 55s.xml">
-      <configuration name="VehicleSimulatorServiceTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -295,6 +263,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorControllerTest.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/connected_vehicles$VehicleSimulatorServiceTest.ic" NAME="VehicleSimulatorServiceTest Coverage Results" MODIFIED="1566054767617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
