@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f37dba29-dc1d-4069-bb4f-99ef938afa48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-data-manager-service/src/main/java/com/hens/practices/connectedvehicles/vehicledatamanagerservice/service/VehicleManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/VehicleSimulatorServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/VehicleSimulatorServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/controller/SimulatorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/main/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/service/VehicleSimulatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/testutility/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-simulator-service/src/test/java/com/hens/practices/connectedvehicles/vehiclesimulatorservice/testutility/TestUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,6 +275,7 @@
     <SUITE FILE_PATH="coverage/connected_vehicles$VehicleSimulatorServiceTest.ic" NAME="VehicleSimulatorServiceTest Coverage Results" MODIFIED="1566054767617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hens.practices.connectedvehicles.vehiclesimulatorservice.service.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/connected_vehicles$simulator_service.ic" NAME="simulator service Coverage Results" MODIFIED="1569159604192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/connected_vehicles$VehicleDataControllerTest.ic" NAME="VehicleDataControllerTest Coverage Results" MODIFIED="1564088715629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hens.practices.connectedvehicles.dataservice.controller.*</FILTER>
     </SUITE>

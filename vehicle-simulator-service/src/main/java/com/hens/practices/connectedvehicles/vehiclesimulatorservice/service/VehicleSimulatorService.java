@@ -55,6 +55,9 @@ public class VehicleSimulatorService {
                 .forEach(configurePingable);
     }
 
+    /**
+     * This method randomly updates the vehicle status
+     */
     @Scheduled(fixedDelay = 6000)
     private void simulateVehicleStatusChange() {
 
