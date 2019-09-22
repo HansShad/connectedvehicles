@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/HensShad/connectedvehicles.svg?token=gp8ra1fhESiZS7gZKpor&branch=master)](https://travis-ci.com/HensShad/connectedvehicles)
-
+[![Build Status](https://travis-ci.com/HansShad/connectedvehicles.svg?branch=master)](https://travis-ci.com/HansShad/connectedvehicles)
 # connectedvehicles
  
