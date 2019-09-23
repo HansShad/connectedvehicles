@@ -1,7 +1,6 @@
 package com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller;
 
-import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.Vehicle;
-import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleData;
+import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleDataUtil;
 import com.hens.practices.connectedvehicles.vehiclesimulatorservice.service.VehicleSimulatorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,14 +20,14 @@ public class SimulatorController {
     @GetMapping("/ping")
     public String pingVehicleForStatus(@RequestParam("id") Long id) {
 
-        if (VehicleData.getVehicles().size() > 0) {
+        if (VehicleDataUtil.getVehicles().size() > 0) {
             vehicleSimulatorService.randomizeUnreachableVehicles();
         }
         else {
             vehicleSimulatorService.fetchAllVehicles();
         }
 
-        return VehicleData.getVehicles()
+        return VehicleDataUtil.getVehicles()
                 .stream()
                 .filter(vehicle -> vehicle.getId() == id)
                 .findFirst()

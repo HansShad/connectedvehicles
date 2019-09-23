@@ -45,14 +45,14 @@ class VehicleUiControllerTest {
     private UiService uiService;
 
     @BeforeEach
-    void setup() {
+    public void setup() {
 
         vehicleList = TestUtil.generateListOfVehicles();
         customerList = TestUtil.listOfCustomers();
     }
 
     @Test
-    void getAllVehicles() throws Exception {
+    public void getAllVehicles() throws Exception {
 
         // when
         when(uiService.performRequest("http://data-service/vehicles/findall", HttpMethod.GET, null, Vehicle.class))
@@ -74,7 +74,7 @@ class VehicleUiControllerTest {
     }
 
     @Test
-    void getVehicleByStatus() throws Exception {
+    public void getVehicleByStatus() throws Exception {
 
         // when
         when(uiService.performRequest("http://data-service/vehicles/statuses?status=" + CONNECTED_STATUS, HttpMethod.GET, null, Vehicle.class))
@@ -99,7 +99,7 @@ class VehicleUiControllerTest {
     }
 
     @Test
-    void getVehiclesByCustomer() throws Exception {
+    public void getVehiclesByCustomer() throws Exception {
 
         // when
         when(uiService.performRequest("http://data-service/vehicles/customers?customer=" + CUSTOMER_1, HttpMethod.GET, null, Vehicle.class))

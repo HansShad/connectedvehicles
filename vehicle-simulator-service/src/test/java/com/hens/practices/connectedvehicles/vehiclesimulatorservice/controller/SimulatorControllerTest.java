@@ -1,7 +1,7 @@
 package com.hens.practices.connectedvehicles.vehiclesimulatorservice.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleData;
+import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleDataUtil;
 import com.hens.practices.connectedvehicles.vehiclesimulatorservice.service.VehicleSimulatorService;
 import com.hens.practices.connectedvehicles.vehiclesimulatorservice.testutility.TestUtil;
 import org.assertj.core.api.Assertions;
@@ -34,22 +34,19 @@ class SimulatorControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-    @Autowired
-    private ObjectMapper objectMapper;
-
     @AfterAll
     private void tearDown() {
 
-        VehicleData.setVehicles(null);
+        VehicleDataUtil.setVehicles(null);
     }
 
     @Test
-    void pingConnectedAndPingableVehicleForStatus() throws Exception {
+    public void pingConnectedAndPingableVehicleForStatus() throws Exception {
 
         Mockito.doAnswer(new Answer<Void>() {
             @Override
             public Void answer(InvocationOnMock invocationOnMock) throws Throwable {
-                VehicleData.setVehicles(TestUtil.generateListOfVehicles());
+                VehicleDataUtil.setVehicles(TestUtil.generateListOfVehicles());
                 return null;
             }
         }).when(vehicleSimulatorService)
@@ -65,12 +62,12 @@ class SimulatorControllerTest {
     }
 
     @Test
-    void pingConnectedAndNotPingableVehicleForStatus() throws Exception {
+    public void pingConnectedAndNotPingableVehicleForStatus() throws Exception {
 
         Mockito.doAnswer(new Answer<Void>() {
             @Override
             public Void answer(InvocationOnMock invocationOnMock) throws Throwable {
-                VehicleData.setVehicles(TestUtil.generateListOfVehicles());
+                VehicleDataUtil.setVehicles(TestUtil.generateListOfVehicles());
                 return null;
             }
         }).when(vehicleSimulatorService)
@@ -86,12 +83,12 @@ class SimulatorControllerTest {
     }
 
     @Test
-    void pingDisconnectedAndPingableVehicleForStatus() throws Exception {
+    public void pingDisconnectedAndPingableVehicleForStatus() throws Exception {
 
         Mockito.doAnswer(new Answer<Void>() {
             @Override
             public Void answer(InvocationOnMock invocationOnMock) throws Throwable {
-                VehicleData.setVehicles(TestUtil.generateListOfVehicles());
+                VehicleDataUtil.setVehicles(TestUtil.generateListOfVehicles());
                 return null;
             }
         }).when(vehicleSimulatorService)

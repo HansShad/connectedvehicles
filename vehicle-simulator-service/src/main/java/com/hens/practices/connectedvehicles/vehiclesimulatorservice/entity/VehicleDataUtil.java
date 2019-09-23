@@ -3,7 +3,7 @@ package com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VehicleData {
+public class VehicleDataUtil {
 
     private static List<Vehicle> vehicles = new ArrayList<>();
 
@@ -12,6 +12,6 @@ public class VehicleData {
     }
 
     public static void setVehicles(List<Vehicle> vehicles) {
-        VehicleData.vehicles = vehicles;
+        VehicleDataUtil.vehicles = vehicles;
     }
 }

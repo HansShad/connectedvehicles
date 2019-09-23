@@ -42,13 +42,13 @@ class VehicleDataControllerTest {
     private List<Vehicle> vehicleList;
 
     @BeforeEach
-    void init() {
+    public void init() {
 
         vehicleList = TestUtil.generateListOfVehicles();
     }
 
     @Test
-    void getAllVehicles() throws Exception {
+    public void getAllVehicles() throws Exception {
 
         // when
         when(vehicleDataService.findAllVehicles()).thenReturn(vehicleList);
@@ -66,7 +66,7 @@ class VehicleDataControllerTest {
     }
 
     @Test
-    void getAllVehiclesByCustomer() throws Exception {
+    public void getAllVehiclesByCustomer() throws Exception {
 
         // when
         when(vehicleDataService.findVehiclesByCustomer(CUSTOMER_1_NAME)).thenReturn(vehicleList);
@@ -86,7 +86,7 @@ class VehicleDataControllerTest {
     }
 
     @Test
-    void getAllVehiclesByStatus() throws Exception {
+    public void getAllVehiclesByStatus() throws Exception {
 
         // when
         when(vehicleDataService.findVehiclesByStatus(CONNECTED_STATUS)).thenReturn(vehicleList);
@@ -106,7 +106,7 @@ class VehicleDataControllerTest {
     }
 
     @Test
-    void getAllCustomers() throws Exception {
+    public void getAllCustomers() throws Exception {
 
         // when
         when(vehicleDataService.findDistinctCustomer()).thenReturn(TestUtil.listOfCustomers());

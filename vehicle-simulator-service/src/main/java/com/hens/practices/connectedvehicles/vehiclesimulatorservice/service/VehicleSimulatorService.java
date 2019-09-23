@@ -1,7 +1,7 @@
 package com.hens.practices.connectedvehicles.vehiclesimulatorservice.service;
 
 import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.Vehicle;
-import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleData;
+import com.hens.practices.connectedvehicles.vehiclesimulatorservice.entity.VehicleDataUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
@@ -29,7 +29,7 @@ public class VehicleSimulatorService {
                 ? response.getBody()
                 : Collections.EMPTY_LIST;
 
-        VehicleData.setVehicles(vehicleList);
+        VehicleDataUtil.setVehicles(vehicleList);
         randomizeUnreachableVehicles();
     }
 
@@ -50,7 +50,7 @@ public class VehicleSimulatorService {
             }
         };
 
-        VehicleData.getVehicles()
+        VehicleDataUtil.getVehicles()
                 .stream()
                 .forEach(configurePingable);
     }
@@ -59,7 +59,7 @@ public class VehicleSimulatorService {
      * This method randomly updates the vehicle status
      */
     @Scheduled(fixedDelay = 6000)
-    private void simulateVehicleStatusChange() {
+    protected void simulateVehicleStatusChange() {
 
         Consumer<Vehicle> simulateStatusUpdate = new Consumer<Vehicle>() {
             @Override
@@ -74,7 +74,7 @@ public class VehicleSimulatorService {
             }
         };
 
-        VehicleData.getVehicles()
+        VehicleDataUtil.getVehicles()
                 .stream()
                 .forEach(simulateStatusUpdate);
     }

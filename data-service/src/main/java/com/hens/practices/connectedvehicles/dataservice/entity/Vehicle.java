@@ -1,9 +1,6 @@
 package com.hens.practices.connectedvehicles.dataservice.entity;
 
-import lombok.Data;
-
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Table(name = "VEHICLE")

@@ -32,7 +32,7 @@ class VehicleDataServiceTest {
     }
 
     @Test
-    void findVehiclesByCustomer() {
+    public void findVehiclesByCustomer() {
 
         // when
         when(vehicleRepository.findByCustomer("CUSTOMER1")).thenReturn(vehicleList);
@@ -42,7 +42,7 @@ class VehicleDataServiceTest {
     }
 
     @Test
-    void findVehiclesByStatus() {
+    public void findVehiclesByStatus() {
 
         // when
         when(vehicleRepository.findByStatus("Connected")).thenReturn(vehicleList);
@@ -53,7 +53,7 @@ class VehicleDataServiceTest {
     }
 
     @Test
-    void findAllVehicles() {
+    public void findAllVehicles() {
 
         // when
         when(vehicleRepository.findAll()).thenReturn(vehicleList);
@@ -64,7 +64,7 @@ class VehicleDataServiceTest {
     }
 
     @Test
-    void findDistinctCustomer() {
+    public void findDistinctCustomer() {
 
         // when
         when(vehicleRepository.findDistinctCustomer()).thenReturn(TestUtil.listOfCustomers());

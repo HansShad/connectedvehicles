@@ -18,7 +18,7 @@ public class VehicleManagementService {
 
 
     @Scheduled(fixedDelay = 5000)
-    private void pingAllVehicles() {
+    protected void pingAllVehicles() {
 
         ResponseEntity<List<Vehicle>> vehicleListResponse = restTemplate.exchange("http://data-service/vehicles/findall", HttpMethod.GET, null, new ParameterizedTypeReference<List<Vehicle>>() {});
         if (vehicleListResponse.getStatusCode() == HttpStatus.OK) {
@@ -27,7 +27,6 @@ public class VehicleManagementService {
                     .stream()
                     .forEach(this::pingVehicle);
         }
-
     }
 
     private void pingVehicle(Vehicle theVehicle) {

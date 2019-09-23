@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hens.practices.connectedvehicles.uiservice.entity.Vehicle;
 import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -48,13 +47,13 @@ class UiServiceTest {
     private static final String CUSTOMER_1_NAME = "CUSTOMER1";
 
     @BeforeEach
-    void setup() {
+    public void setup() {
 
         mockServer = MockRestServiceServer.createServer(restTemplate);
     }
 
     @Test
-    void testGetRequestForAllVehicles() throws JsonProcessingException {
+    public void testGetRequestForAllVehicles() throws JsonProcessingException {
 
         mockServer.expect(once(), requestTo("http://data-service/vehicles/find/findall"))
                 .andExpect(method(HttpMethod.GET))
@@ -68,7 +67,7 @@ class UiServiceTest {
     }
 
     @Test
-    void testGetRequestForAllCustomer() throws JsonProcessingException {
+    public void testGetRequestForAllCustomer() throws JsonProcessingException {
 
         mockServer.expect(once(), requestTo("http://data-service/vehicles/customers/all"))
                 .andExpect(method(HttpMethod.GET))
@@ -83,7 +82,7 @@ class UiServiceTest {
     }
 
     @Test
-    void testGetRequestForAllVehiclesWithParticularStatus() throws JsonProcessingException {
+    public void testGetRequestForAllVehiclesWithParticularStatus() throws JsonProcessingException {
 
         List<Vehicle> listOfConnectedVehicles = generateListOfVehicles()
                 .stream()
@@ -101,7 +100,7 @@ class UiServiceTest {
     }
 
     @Test
-    void testGetRequestForAllVehiclesBelongToACustomer() throws JsonProcessingException {
+    public void testGetRequestForAllVehiclesBelongToACustomer() throws JsonProcessingException {
 
         List<Vehicle> listOfVehicleForACustomer = generateListOfVehicles()
                 .stream()
