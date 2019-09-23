@@ -47,7 +47,7 @@ class UiServiceTest {
     private static final String CUSTOMER_1_NAME = "CUSTOMER1";
 
     @BeforeEach
-    public void setup() {
+    public void setUp() {
 
         mockServer = MockRestServiceServer.createServer(restTemplate);
     }
